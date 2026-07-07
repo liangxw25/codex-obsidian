@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "root=\"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\"; CODEX_OBSIDIAN_HOME=\"$root\" \"$root/hooks/session-start-hot-cache.sh\"",
+            "statusMessage": "Loading codex-obsidian hot cache",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|apply_patch",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "root=\"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\"; CODEX_OBSIDIAN_HOME=\"$root\" \"$root/hooks/post-tool-use-auto-commit.sh\"",
+            "statusMessage": "Auto-committing codex-obsidian wiki changes",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

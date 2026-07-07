@@ -1,0 +1,83 @@
+# codex-obsidian vault .gitignore
+#
+# Do not ignore wiki/, .raw/, or .vault-meta/ as whole directories.
+# Those paths are the vault's history and should normally be tracked.
+
+# Obsidian UI/runtime state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-visual.json
+.obsidian/plugins/*/data.json
+.smart-connections/
+.obsidian-git-data
+.trash/
+
+# Codex local runtime
+.codex/tmp/
+.codex/cache/
+
+# Runtime locks and regenerable caches
+.vault-meta/.address.lock
+.vault-meta/.tiling.lock
+.vault-meta/.wiki-lock.meta
+.vault-meta/.bm25.lock
+.vault-meta/.embed-cache.lock
+.vault-meta/locks/*
+!.vault-meta/locks/.gitkeep
+.vault-meta/chunks/
+.vault-meta/bm25/
+.vault-meta/embed-cache.json
+.vault-meta/embed-cache.*.tmp
+.vault-meta/tiling-cache.json
+.vault-meta/tiling-cache.*.tmp
+.vault-meta/transport.json
+.vault-meta/transport.*.tmp
+.vault-meta/hook.log
+.vault-meta/mode.*.tmp
+
+# System/editor
+.DS_Store
+Thumbs.db
+*.tmp.*
+
+# Secrets
+.env
+.env.local
+*.local.md
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+credentials*
+secrets.y*ml
+auth.json
+
+# Python / Node
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Large local media
+*.mkv
+*.mp4
+*.mov
+*.avi
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Obsidian scratch files
+Untitled.canvas
+Untitled *.canvas
+Untitled.base
+*.base
+????-??-??.md
+Excalidraw/
