@@ -13,7 +13,7 @@ vault/
 └── AGENTS.md      # vault 级 Codex 说明
 ```
 
-`wiki/` 的默认结构：
+当前 vault 使用 PARA 结构：
 
 ```text
 wiki/
@@ -21,15 +21,10 @@ wiki/
 ├── hot.md
 ├── log.md
 ├── overview.md
-├── sources/
-├── entities/
-├── concepts/
-├── domains/
-├── comparisons/
-├── questions/
-├── sessions/
-├── canvases/
-└── meta/
+├── projects/
+├── areas/
+├── resources/
+└── archives/
 ```
 
 ## 写作规则
@@ -48,7 +43,7 @@ Codex 回答 wiki 相关问题时按顺序读取：
 
 1. `wiki/hot.md`
 2. `wiki/index.md`
-3. 相关子索引，例如 `wiki/concepts/_index.md`
+3. 相关 PARA 子索引，例如 `wiki/resources/_index.md`
 4. 具体页面
 
 不要为了普通编程问题读取 wiki。只在任务需要项目知识、资料综合或用户明确要求基于 wiki 回答时使用。
