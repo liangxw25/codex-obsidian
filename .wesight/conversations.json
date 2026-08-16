@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "conversations": [
+    {
+      "id": "conv_msvp2im4_qkdjq4yz",
+      "title": "你是谁",
+      "agentId": "claude",
+      "createdAt": 1786878074812,
+      "updatedAt": 1786889686009,
+      "messages": [
+        {
+          "id": "msg_msvvzdss_jbmmrg8d",
+          "role": "user",
+          "content": "你是谁",
+          "createdAt": 1786889685916,
+          "agentId": "codex"
+        },
+        {
+          "id": "msg_msvvzdsu_j26whqvn",
+          "role": "error",
+          "content": "\nCodex App Server 启动失败。\nspawn C:\\Users\\17788\\AppData\\Roaming\\npm\\codex ENOENT",
+          "createdAt": 1786889685918,
+          "agentId": "codex",
+          "metadata": {
+            "process": [],
+            "knowledgeBased": false,
+            "durationMs": 87
+          }
+        }
+      ],
+      "mode": "chat"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "E:\\codex-obsidian\\.pet-runs\\decoded\\look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        512,
+        768
+      ],
+      "used_pixels": 152683,
+      "edge_pixels": 0,
+      "output": "E:\\codex-obsidian\\.pet-runs\\decoded\\look-anchors\\000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        512,
+        0,
+        1023,
+        768
+      ],
+      "used_pixels": 144262,
+      "edge_pixels": 20,
+      "output": "E:\\codex-obsidian\\.pet-runs\\decoded\\look-anchors\\090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1023,
+        0,
+        1534,
+        768
+      ],
+      "used_pixels": 150730,
+      "edge_pixels": 34,
+      "output": "E:\\codex-obsidian\\.pet-runs\\decoded\\look-anchors\\180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1534,
+        0,
+        2046,
+        768
+      ],
+      "used_pixels": 143778,
+      "edge_pixels": 0,
+      "output": "E:\\codex-obsidian\\.pet-runs\\decoded\\look-anchors\\270.png"
+    }
+  ]
+}

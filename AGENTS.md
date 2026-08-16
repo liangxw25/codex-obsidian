@@ -28,17 +28,17 @@ ln -s "$(pwd)/skills" ~/.codex/skills/codex-obsidian
 
 ## 主要 Skills
 
-| Skill | 用途 |
-|---|---|
-| `wiki` | 初始化 vault、路由子任务、维护 hot cache |
-| `wiki-ingest` | 摄取文件、URL、图片，生成 source/entity/concept 页面 |
-| `wiki-query` | 从 hot cache、索引和相关页面中回答问题 |
-| `wiki-lint` | 检查孤儿页、死链、缺口和陈旧声明 |
-| `save` | 保存当前对话、结论或决策 |
-| `autoresearch` | 多轮自主研究并归档 |
-| `canvas` | 创建和维护 Obsidian Canvas |
-| `wiki-mode` | LYT / PARA / Zettelkasten / generic 路由 |
-| `wiki-retrieve` | BM25 + contextual prefix + rerank 检索 |
+| Skill           | 用途                                      |
+| --------------- | --------------------------------------- |
+| `wiki`          | 初始化 vault、路由子任务、维护 hot cache            |
+| `wiki-ingest`   | 摄取文件、URL、图片，生成 source/entity/concept 页面 |
+| `wiki-query`    | 从 hot cache、索引和相关页面中回答问题                |
+| `wiki-lint`     | 检查孤儿页、死链、缺口和陈旧声明                        |
+| `save`          | 保存当前对话、结论或决策                            |
+| `autoresearch`  | 多轮自主研究并归档                               |
+| `canvas`        | 创建和维护 Obsidian Canvas                   |
+| `wiki-mode`     | LYT / PARA / Zettelkasten / generic 路由  |
+| `wiki-retrieve` | BM25 + contextual prefix + rerank 检索    |
 
 ## 迁移边界
 
