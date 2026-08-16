@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "68640eaaa43bd619",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c71cfad86464a17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feeccf2be4f80b43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_inbox/2026-08-17/公众号-用 WorkBuddy - Codex + Obsidian 搭建自生长的个人知识库实战.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "公众号-用 WorkBuddy - Codex + Obsidian 搭建自生长的个人知识库实战"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7e82ea84a4573ffd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b26019f8122ff0cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "153a76def4ca559f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "740dca69efaab56e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"title\"]",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "b0b15930be7d6473",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2aa105faad8f4962",
+    "type": "split",
+    "children": [
+      {
+        "id": "5821ce371c17745e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "033a6ae374991965",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 的反向链接列表"
+            }
+          },
+          {
+            "id": "eca71e6b7b5dd2c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "31993c599fa02a20",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "60dd3ce05f076778",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "0d1f7fc4dce19fa2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_inbox/2026-08-17/公众号-用 WorkBuddy - Codex + Obsidian 搭建自生长的个人知识库实战.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "283f1ef36bfb843f",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 468
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "wechat-inbox-sync:同步微信收集箱": false
+    }
+  },
+  "active": "153a76def4ca559f",
+  "lastOpenFiles": [
+    ".git/refs/codex/turn-diffs/checkpoints/08668415bb70af61c3e6f393dc3a5a73abfb3b3f75bdae1a3fe2e1ad496b9685/8093f0f51fa5cc633014633f55ba84cca94b7627175bead4236222fe47756cac/1786897899001/f04a3cc6-2cee-4f0a-95a1-dc642808bdf5",
+    ".git/refs/codex/turn-diffs/checkpoints/08668415bb70af61c3e6f393dc3a5a73abfb3b3f75bdae1a3fe2e1ad496b9685/8093f0f51fa5cc633014633f55ba84cca94b7627175bead4236222fe47756cac/1786897899001",
+    ".git/refs/codex/turn-diffs/checkpoints/08668415bb70af61c3e6f393dc3a5a73abfb3b3f75bdae1a3fe2e1ad496b9685/8093f0f51fa5cc633014633f55ba84cca94b7627175bead4236222fe47756cac",
+    ".git/refs/codex/turn-diffs/captures/1786897858194/2726a883-4b1d-4c11-ae51-8d3f87369f45/head",
+    ".git/refs/codex/turn-diffs/captures/1786897858194/2726a883-4b1d-4c11-ae51-8d3f87369f45/base",
+    ".git/refs/codex/turn-diffs/captures/1786897858194/2726a883-4b1d-4c11-ae51-8d3f87369f45",
+    ".git/refs/codex/turn-diffs/captures/1786897858194",
+    ".git/refs/codex/turn-diffs/captures",
+    ".git/objects/58/7addbb37ac1a3b8c68f9523fa9850d1af52f5b",
+    ".git/objects/97/886e923984c837138bc6f000e04041b76ad354",
+    ".git/objects/20/6c5cd5776f4599b2f3d7a1407a5f694c8c1a2f",
+    "_inbox/2026-07-19/抖音-抖音口播文案-002.md",
+    "_inbox/2026-08-17/公众号-三个月从零转行电力市场分析师：学习路径、分析实践、怎么证明自己能胜任？.md",
+    "README.md",
+    "_inbox/2026-08-17/公众号-用 WorkBuddy - Codex + Obsidian 搭建自生长的个人知识库实战.md",
+    "AGENTS.md",
+    "wiki/overview.md",
+    "WIKI.md",
+    "inbox.md",
+    "ATTRIBUTION.md",
+    ".pet-runs/qa/previews/running-right.gif",
+    ".pet-runs/qa/previews/waving.gif",
+    ".pet-runs/qa/previews/waiting.gif",
+    ".pet-runs/qa/previews/running-left.gif",
+    ".pet-runs/qa/previews/running.gif",
+    ".pet-runs/qa/previews/review.gif",
+    ".pet-runs/qa/previews/jumping.gif",
+    ".pet-runs/qa/previews/failed.gif",
+    ".pet-runs/qa/previews/idle.gif",
+    ".pet-runs/prompts/row-retries/waiting.md",
+    ".pet-runs/prompts/row-retries/running.md",
+    ".pet-runs/prompts/row-retries/waving.md",
+    ".pet-runs/prompts/row-retries/review.md",
+    ".pet-runs/prompts/row-retries/running-right.md",
+    ".pet-runs/prompts/row-retries/look-row-9.md",
+    ".pet-runs/references/layout-guides/waiting.png",
+    ".pet-runs/prompts/row-retries/running-left.md",
+    ".pet-runs/prompts/row-retries/jumping.md",
+    ".pet-runs/prompts/row-retries/look-row-10.md",
+    ".pet-runs/prompts/row-retries/idle.md",
+    ".pet-runs/prompts/row-retries/failed.md",
+    ".pet-runs/prompts/rows/waving.md",
+    ".pet-runs/prompts/rows/running.md",
+    ".pet-runs/prompts/rows/idle.md",
+    ".pet-runs/prompts/rows/waiting.md",
+    ".pet-runs/prompts/look-anchor-repairs/180.md",
+    "未命名.canvas"
+  ]
+}

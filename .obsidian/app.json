@@ -1,0 +1,13 @@
+{
+  "userIgnoreFilters": [
+    "skills/",
+    "scripts/",
+    "bin/",
+    "tests/",
+    "README.md",
+    "WIKI.md"
+  ],
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "showUnsupportedFiles": true
+}

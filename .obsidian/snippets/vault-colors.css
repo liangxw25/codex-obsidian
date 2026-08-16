@@ -1,0 +1,60 @@
+/* codex-obsidian: wiki folder color hints */
+.nav-folder-title[data-path="_inbox"] { color: #d19a66; }
+.nav-folder-title[data-path="assets"] { color: #e5c07b; }
+.nav-folder-title[data-path="wiki"] { color: #56b6c2; }
+.nav-folder-title[data-path=".raw"] { color: #abb2bf; }
+
+/* Show .raw through Show Hidden Files, but keep tool internals out of the explorer. */
+.nav-folder-title[data-path=".obsidian"],
+.nav-folder-title[data-path=".vault-meta"],
+.nav-folder-title[data-path=".codex"],
+.nav-folder-title[data-path=".git"],
+.nav-folder-title[data-path=".agents"],
+.nav-folder-title[data-path=".wesight"],
+.nav-folder-title[data-path=".pet-runs"],
+.nav-folder-title[data-path="bin"],
+.nav-folder-title[data-path="docs"],
+.nav-folder-title[data-path="templates"],
+.nav-folder-title[data-path="_templates"],
+.nav-folder-title[data-path="tests"],
+.nav-folder-title[data-path="hooks"],
+.nav-folder-title[data-path="scripts"],
+.nav-folder-title[data-path="skills"] {
+  display: none !important;
+}
+
+/* Keep repository metadata and project documentation out of the root explorer. */
+.nav-file-title[data-path=".gitignore"],
+.nav-file-title[data-path="ATTRIBUTION.md"],
+.nav-file-title[data-path="inbox.md"],
+.nav-file-title[data-path="LICENSE"],
+.nav-file-title[data-path="Makefile"] {
+  display: none !important;
+}
+
+.nav-folder-title[data-path^="wiki/domains"] { color: #4fc1ff; }
+.nav-folder-title[data-path^="wiki/entities"] { color: #c586c0; }
+.nav-folder-title[data-path^="wiki/concepts"] { color: #dcdcaa; }
+.nav-folder-title[data-path^="wiki/sources"] { color: #ce9178; }
+.nav-folder-title[data-path^="wiki/questions"] { color: #6a9955; }
+.nav-folder-title[data-path^="wiki/comparisons"] { color: #d16969; }
+.nav-folder-title[data-path^="wiki/sessions"] { color: #569cd6; }
+.nav-folder-title[data-path^="wiki/canvases"] { color: #b5cea8; }
+.nav-folder-title[data-path^="wiki/meta"] { color: #9cdcfe; }
+
+.callout[data-callout="contradiction"] {
+  --callout-color: 180, 80, 70;
+  --callout-icon: alert-triangle;
+}
+.callout[data-callout="gap"] {
+  --callout-color: 180, 135, 40;
+  --callout-icon: search;
+}
+.callout[data-callout="key-insight"] {
+  --callout-color: 70, 130, 90;
+  --callout-icon: lightbulb;
+}
+.callout[data-callout="stale"] {
+  --callout-color: 120, 120, 120;
+  --callout-icon: clock;
+}
